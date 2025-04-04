@@ -45,14 +45,14 @@
                             id="nameId" placeholder="ชื่อ-สกุล" name="nameId" required>
                     </div>
                     <div class="mb-4">
-                        <!-- ฟิลด์สำหรับใส่เลข ท. -->
+                        <!-- ฟิลด์สำหรับใส่เลขประจำตัว -->
                         <input type="text" class="input-field w-full border border-slate-300 p-2 text-md rounded-lg"
-                            id="keynumberId" placeholder="เลข ท." name="keynumberId" required>
+                            id="keynumberId" placeholder="เลขประจำตัว" name="keynumberId" required>
                     </div>
                     <div class="mb-6">
-                        <!-- ฟิลด์สำหรับใส่ตำแหน่ง -->
+                        <!-- ฟิลด์สำหรับใส่หยุดประจำวัน? -->
                         <input type="text" class="input-field w-full border border-slate-300 p-2 text-md rounded-lg"
-                            id="keynumber2Id" placeholder="ตำแหน่ง" name="keynumber2Id" required>
+                            id="keynumber2Id" placeholder="หยุดประจำวัน?" name="keynumber2Id" required>
                     </div>
                 </div>
                 <!-- ปุ่มสำหรับบันทึกข้อมูล -->
@@ -155,7 +155,7 @@
                                 type: 'separator',
                                 margin: 'md'
                             },
-                            // แถว "เลข ท."
+                            // แถว "เลขประจำตัว"
                             {
                                 type: 'box',
                                 layout: 'horizontal',
@@ -169,7 +169,7 @@
                                     },
                                     {
                                         type: 'text',
-                                        text: 'เลข ท.',
+                                        text: 'เลขประจำตัว',
                                         size: 'sm',
                                         color: '#555555',
                                         flex: 3,
@@ -191,7 +191,7 @@
                                 type: 'separator',
                                 margin: 'md'
                             },
-                            // แถว "ตำแหน่ง"
+                            // แถว "หยุดประจำวัน?"
                             {
                                 type: 'box',
                                 layout: 'horizontal',
@@ -205,7 +205,7 @@
                                     },
                                     {
                                         type: 'text',
-                                        text: 'ตำแหน่ง',
+                                        text: 'หยุดประจำวัน?',
                                         size: 'sm',
                                         color: '#555555',
                                         flex: 3,
