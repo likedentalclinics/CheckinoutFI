@@ -8,8 +8,8 @@ const WEB_APP_OT_URL = 'https://script.google.com/macros/s/AKfycbzrb8BhZC67fbYaV
 const CONDUCT_URL = 'https://script.google.com/macros/s/AKfycbx4j3K7OohIlcHmz47e2AqMRpetuFEoMdm_UvcnLMMYkVARuIwSSoBV_Tthyju2yzX3/exec';
 
 //LIFF_ID
-const LIFF_ID = '2007047383-gVW8J9pn'; // LIFF ID Checkin
-const LIFF_ID1 = '2007047383-ADDp4zLM'; // LIFF ID history
-const LIFF_ID2 = '2007047383-vaORNVq4'; // LIFF ID leave
-const LIFF_ID3 = '2007047383-Vw0q76Nz'; // LIFF ID ot
-const LIFF_ID4 = '2007047383-9LzDaqAg'; // LIFF ID register
+const LIFF_ID = ''; // LIFF ID Checkin
+const LIFF_ID1 = ''; // LIFF ID history
+const LIFF_ID2 = ''; // LIFF ID leave
+const LIFF_ID3 = ''; // LIFF ID ot
+const LIFF_ID4 = ''; // LIFF ID register
