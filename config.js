@@ -10,6 +10,6 @@ const CONDUCT_URL = 'https://script.google.com/macros/s/AKfycbx4j3K7OohIlcHmz47e
 //LIFF_ID
 const LIFF_ID = ''; // LIFF ID Checkin
 const LIFF_ID1 = ''; // LIFF ID history
-const LIFF_ID2 = ''; // LIFF ID leave
+const LIFF_ID2 = ''; // LIFF ID conduct
 const LIFF_ID3 = ''; // LIFF ID ot
 const LIFF_ID4 = ''; // LIFF ID register
