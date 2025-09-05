@@ -344,6 +344,31 @@
     // เปลี่ยนค่าของงานเมื่อเลือกประเภทงาน
     document.querySelectorAll('input[name="switch-job"]').forEach(function (radio) {
       radio.addEventListener('change', function () {
+        const now = new Date();
+    const bangkokTime = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Bangkok' }));
+    const hours = bangkokTime.getHours();
+
+    // เงื่อนไขตรวจสอบเวลาและข้อความแจ้งเตือน
+    if (this.value === 'เข้างาน') {
+      if (hours >= 16 && hours <= 23) {
+        Swal.fire({
+          title: 'เตือนสติ!',
+          text: 'กำลังจะกดปุ่มออกงานใช่หรือไม่ ถ้าใช่ให้กด OK แล้วเลือกใหม่',
+          icon: 'warning',
+          confirmButtonText: 'OK',
+        });
+      }
+    }
+    if (this.value === 'ออกงาน') {
+      if (hours >= 7 && hours <= 14) {
+        Swal.fire({
+          title: 'เตือนสติ!',
+          text: 'คุณกำลังกดออกงานในช่วงเวลา 7:00 - 12:00',
+          icon: 'warning',
+          confirmButtonText: 'OK',
+        });
+      }
+    }
         document.getElementById('jobInput').value = this.value;
         document.querySelectorAll('.switch-field label').forEach(function (label) {
           label.classList.remove('bg-slate-800', 'text-white');
